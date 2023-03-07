@@ -1,0 +1,272 @@
+.presentation {
+  margin: 4rem 0;
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @media (max-width: 830px) {
+      justify-content: center;
+      flex-direction: column-reverse;
+      gap: 1rem;
+    }
+
+    .descriptionPresentation {
+      width: 49%;
+
+      @media (max-width: 830px) {
+        width: 100%;
+      }
+
+      h1 {
+        padding: 1px;
+        font-size: 1.9rem;
+        font-style: oblique;
+        line-height: 30p;
+        color:#e68e9a;
+      }
+
+      p {
+        font-style: oblique;
+        font-size: 18px;
+        font-weight: 300;
+        color: var(--black);
+        text-align: center;
+        margin: 0.8rem 0;
+      }
+    }
+
+    .imgPresentation {
+      width: 49%;
+      margin-top: -155px;
+      margin-bottom: -130px;
+      height: 510px;
+      background: url("../../assets/DSC_0341.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      @media (max-width: 830px) {
+        width: 100%;
+      }
+    }
+  }
+}
+
+
+.propose {
+  margin: 3rem 0;
+  margin-top: 10%;
+ @media (max-width: 830px) {
+     margin-top: 70%;
+    }
+    a{
+      display: flex;
+      justify-content: center;
+  align-items: center;
+      
+    }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+
+    @media (max-width: 830px) {
+      justify-content: center;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .descriptionPropose {
+      width: 49%;
+
+      @media (max-width: 830px) {
+        width: 100%;
+      }
+
+      h1 {
+        font-size: 1.9rem;
+        font-weight: 800;
+        line-height: 30px;
+        color:#e68e9a;
+      }
+
+      p {
+        font-style: oblique;
+        font-size: 18px;
+        text-align: center;
+        font-weight: 300;
+        color: var(--black);
+        margin: 0.8rem 0;
+      }
+    
+    }
+
+    
+
+    .imgPropose {
+      width: 49%;
+      height: 510px;
+      background: url("../../assets/Captura de tela 2023-03-06 130400.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      margin-top: 10%;
+      @media (max-width: 830px) {
+        width: 100%;
+        margin-top: 10%;
+      }
+    }
+    .imgPropose2 {
+      width: 49%;
+      height: 510px;
+      background: url("../../assets/americans.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      
+      @media (max-width: 830px) {
+        width: 100%;
+        margin-top: -155px;
+      }
+    }
+    .imgPropose3 {
+      width: 49%;
+      height: 510px;
+      background: url("../../assets/DSC_0930.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      
+      @media (max-width: 830px) {
+        width: 100%;
+        margin-top: -155px;
+      }
+    }
+    .imgPropose4 {
+      width: 49%;
+      height: 510px;
+      background: url("../../assets/Captura de tela 2023-03-06 151251.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      
+      @media (max-width: 830px) {
+        width: 100%;
+        margin-top: -155px;
+      }
+    }
+  }
+}
+
+.propose2 {
+  margin: 3rem 0;
+  
+ @media (max-width: 830px) {
+     margin-top: 70%;
+    }
+    a{
+      display: flex;
+      justify-content: center;
+  align-items: center;
+      
+    }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+
+    @media (max-width: 830px) {
+      justify-content: center;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .descriptionPropose {
+      width: 100%;
+
+      @media (max-width: 830px) {
+        width: 100%;
+      }
+
+      h1 {
+        font-size: 1.9rem;
+        font-weight: 800;
+        line-height: 30px;
+        color:#e68e9a;
+      }
+
+      p {
+        font-style: oblique;
+        font-size: 18px;
+        text-align: center;
+        font-weight: 300;
+        color: var(--black);
+        margin: 0.8rem 0;
+      }
+    
+    }
+
+    
+  }
+}
+
+.title {
+  text-align: center;
+
+  h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 70px;
+
+    @media (max-width: 600px) {
+      line-height: 40px;
+      margin-bottom: 1rem;
+    }
+  }
+
+  span {
+    font-size: 1rem;
+    font-weight: 300;
+  }
+}
+
+.nogs {
+  margin: 3rem 0;
+
+  .nogsContent {
+    margin: 1rem 0;
+    
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    @media (max-width: 600px) {
+      justify-content: center;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .logoNogs {
+      width: calc(100% / 4 - 1rem);
+      height: 100px;
+      background: url("https://yt3.ggpht.com/ytc/AMLnZu9iYZBVbYAiDov-oB9v_ZpUURnf1fHO19pr5C0O=s900-c-k-c0x00ffffff-no-rj");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      @media (max-width: 600px) {
+        width: 200px;
+      }
+    }
+  }
+}
+
+
+
+
+  
+
+

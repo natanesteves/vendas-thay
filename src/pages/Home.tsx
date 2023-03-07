@@ -85,9 +85,9 @@ export function Home() {
           <div className="descriptionPropose">
             <h1>7 dias de garantia incondicional</h1>
             <br></br>
-            <h2>Acesso por 12 meses</h2>
+            <h3>Acesso por 12 meses</h3>
             <br></br>
-            <h2>Assista quantas vezes quiser</h2>
+            <h3>Assista quantas vezes quiser</h3>
           </div>
         </div>
       </section>
@@ -121,7 +121,7 @@ export function Home() {
         
           <div className="descriptionPropose">
             <h1>O CURSO</h1>
-            <h3>Aprenda farmacologia de uma forma descomplicada de uma vez por todas! Você verá de forma detalhada e aplicada à clínica tudo que um dentista precisa saber para realizar prescrições seguras e eficientes. Além disso, você estará preparado para reconhecer repercussões orais do uso de medicamentos, bem como lidar com interações medicamentosas.  </h3>
+            <p>Aprenda farmacologia de uma forma descomplicada de uma vez por todas! Você verá de forma detalhada e aplicada à clínica tudo que um dentista precisa saber para realizar prescrições seguras e eficientes. Além disso, você estará preparado para reconhecer repercussões orais do uso de medicamentos, bem como lidar com interações medicamentosas.  </p>
           </div>
         </div>
       
@@ -218,7 +218,7 @@ export function Home() {
         <div className="imgPropose3"></div>
           <div className="descriptionPropose">
             <h1>APRENDA FARMACOLOGIA COM QUEM TEM EXPERIÊNCIA NA ÁREA</h1>
-            <h3>Thayanne Calcia é sou professora de Terapêutica Medicamentosa aplicada à Odontologia. Sou dentista, mestre e doutora com mais de 10 anos de experiência no ensino e no estudo da Farmacologia. Ela é especialista em Estomatologia e DTM/Dor Orofacial, áreas nas quais atuo clinicamente. Diariamente, dedica-se a simplificar o entendimento da Farmacologia Clínica na Odontologia, disciplina que é considerada bastante desafiadora.</h3>
+            <p>Thayanne Calcia é sou professora de Terapêutica Medicamentosa aplicada à Odontologia. Sou dentista, mestre e doutora com mais de 10 anos de experiência no ensino e no estudo da Farmacologia. Ela é especialista em Estomatologia e DTM/Dor Orofacial, áreas nas quais atuo clinicamente. Diariamente, dedica-se a simplificar o entendimento da Farmacologia Clínica na Odontologia, disciplina que é considerada bastante desafiadora.</p>
           </div>
         </div>
       
@@ -229,7 +229,7 @@ export function Home() {
         <div className="imgPropose4"></div>
           <div className="descriptionPropose">
            
-            <h3>Edilson Martins é professor do Doutorado de Desenvolvimento e Inovação Tecnológica de Medicamentos da Universidade Federal do Ceará (UFC) e de Cursos de pós-graduação e livres na área de HOF. É farmacêutico Hospitalar, servidor público no Instituto Dr José Frota e Cirurgião Dentista. Possui Mestrado e Doutorado em Farmacologia pela UFC e especializações em Farmacologia Clínica, Toxicologia Geral e Patologia Oral e Maxilofacial. Seu objetivo é trazer a farmacologia clínica para a rotina do cirurgião dentista prescritor de modo acessível, claro e direto. Será responsável pelo módulo de tratamento farmacológico das infecções, área em que possui ampla atuação.</h3>
+            <p>Edilson Martins é professor do Doutorado de Desenvolvimento e Inovação Tecnológica de Medicamentos da Universidade Federal do Ceará (UFC) e de Cursos de pós-graduação e livres na área de HOF. É farmacêutico Hospitalar, servidor público no Instituto Dr José Frota e Cirurgião Dentista. Possui Mestrado e Doutorado em Farmacologia pela UFC e especializações em Farmacologia Clínica, Toxicologia Geral e Patologia Oral e Maxilofacial. Seu objetivo é trazer a farmacologia clínica para a rotina do cirurgião dentista prescritor de modo acessível, claro e direto. Será responsável pelo módulo de tratamento farmacológico das infecções, área em que possui ampla atuação.</p>
           </div>
         </div>
       
@@ -258,11 +258,13 @@ export function Home() {
         <div className="imgPropose3"></div>
           <div className="descriptionPropose">
             <h1>INVESTIMENTO</h1>
-            <h3>R$ 499,99 à vista
-
+            <br></br>
+            <h3>R$ 499,99 à vista</h3>
+             <br></br>
+<h1>
 Ou em até 12x de
 
-49,99</h3>
+49,99</h1>
           </div>
         </div>
         <a href="https://hotm.art/dentistaprescritor">

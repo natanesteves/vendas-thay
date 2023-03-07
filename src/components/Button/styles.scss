@@ -18,4 +18,16 @@ button.mainButton {
         font-family: "Poppins", sans-serif;
         color: var(--white) !important;
     }
+    .imgPropose4 {
+      width: 49%;
+      height: 50px;
+      background: url("../../assets/oie_723722H8rh5Rfs.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      
+      @media (max-width: 830px) {
+        width: 49%;
+      }
+    }
 }

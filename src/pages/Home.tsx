@@ -26,6 +26,15 @@ export function Home() {
         </div>
       </section>
 
+      <section className="presentation">
+        <div className="container">
+          <div className="descriptionPresentation">
+            <h1>Curso de Farmacologia para Odontologia</h1>
+            <h2>#dentistaprescritor</h2>
+          </div>
+          <div className="imgPresentation2"></div>
+        </div>
+      </section>
       {/* <section className="whatWeDo" id="whatWeDo">
         <div className="title">
           <h1>O Evento</h1>
@@ -255,7 +264,7 @@ export function Home() {
 
       <section className="propose" id="propose">
         <div className="container">
-        <div className="imgPropose3"></div>
+        <div className="imgPropose5"></div>
           <div className="descriptionPropose">
             <h1>INVESTIMENTO</h1>
             <br></br>

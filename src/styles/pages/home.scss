@@ -26,6 +26,12 @@
         font-style: oblique;
         line-height: 30p;
         color:#e68e9a;
+        text-align: center;
+      }
+      h2 {
+        padding: 1px;
+        
+        text-align: center;
       }
 
       p {
@@ -44,6 +50,19 @@
       margin-bottom: -130px;
       height: 510px;
       background: url("../../assets/DSC_0341.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      @media (max-width: 830px) {
+        width: 100%;
+      }
+    }
+    .imgPresentation2 {
+      width: 49%;
+      margin-top: -155px;
+      margin-bottom: -130px;
+      height: 510px;
+      background: url("../../assets/Captura_de_tela_2023-03-08_134557-removebg-preview.png");
       background-position: center;
       background-repeat: no-repeat;
       background-size: contain;
@@ -140,7 +159,7 @@
     .imgPropose3 {
       width: 49%;
       height: 510px;
-      background: url("../../assets/DSC_0930.jpg");
+      background: url("../../assets/DSC_0930-removebg-preview.png");
       background-position: center;
       background-repeat: no-repeat;
       background-size: contain;
@@ -153,7 +172,20 @@
     .imgPropose4 {
       width: 49%;
       height: 510px;
-      background: url("../../assets/Captura de tela 2023-03-06 151251.png");
+      background: url("../../assets/Captura_de_tela_2023-03-06_151251-removebg-preview.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      
+      @media (max-width: 830px) {
+        width: 100%;
+        margin-top: -155px;
+      }
+    }
+    .imgPropose5 {
+      width: 49%;
+      height: 510px;
+      background: url("../../assets/DSC_0890.jpg");
       background-position: center;
       background-repeat: no-repeat;
       background-size: contain;
